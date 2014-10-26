@@ -1,7 +1,7 @@
 {
   "name": "character-count",
   "main": "./lib/character-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show number of characters in the current editor",
   "activationEvents": ["character-count:count"],
   "repository": "https://github.com/takezoe/atom-character-count",
