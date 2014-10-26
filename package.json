@@ -1,10 +1,10 @@
 {
   "name": "character-count",
   "main": "./lib/character-count",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "Show number of characters in the current editor",
   "activationEvents": ["character-count:count"],
-  "repository": "https://github.com/atom/character-count",
+  "repository": "https://github.com/takezoe/atom-character-count",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
