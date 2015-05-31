@@ -4,4 +4,4 @@ module.exports =
     alert('char count: ' + editor.getText().length)
 
   activate: (state) ->
-    atom.workspaceView.command "character-count:count", => @count()
+    atom.commands.add 'atom-workspace', 'character-count:count', => @count()
