@@ -1,4 +1,8 @@
-# See https://atom.io/docs/latest/creating-a-package#menus for more details
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
-  '.overlayer':
-      'Count Characters': 'character-count:count'
+  'atom-text-editor': [
+    {
+      'label': 'Count Characters'
+      'command': 'character-count:count'
+    }
+  ]

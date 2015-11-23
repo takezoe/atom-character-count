@@ -1,6 +1,6 @@
 module.exports =
   count: ->
-    editor = atom.workspace.activePaneItem
+    editor = atom.workspace.getActivePaneItem()
     alert('char count: ' + editor.getText().length)
 
   activate: (state) ->
